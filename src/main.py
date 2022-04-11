@@ -102,13 +102,10 @@ class CmdLineDriver:
             ' > python src/main.py -autopopulate <project>\n'
             '      - Generates and loads all table data from all projects (or a specified project name) into database\n'
             ' > python src/main.py -config\n'
-            '      - WARNING: Read database_processing yaml before choosing this option'
-            '      - Performs data operations specified in root/configs/database_processing.yaml'
+            '      - WARNING: Read database_processing yaml before choosing this option\n'
+            '      - Performs data operations specified in root/configs/database_processing.yaml\n'
             ' > python src/main.py -create_db\n'
             '      -Creates an empty ATDD at root/database/augmented_tdd.db'
-            # ' > python main.py <DATABASE-ACTION> <TABLES-TO-PROCESS> <PROJECTS-FROM-CONFIG>\n\n'
-            # '      - Performs data operations manually, where:\n'
-            # '        DATABASE-ACTION: GENERATE to create new data and save to CSV/JSON, or LOAD to load CSV/JSON data into database. You generally want to GENERATE then LOAD'
         )
 
 

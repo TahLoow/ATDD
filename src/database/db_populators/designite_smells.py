@@ -4,7 +4,7 @@ import shutil
 
 import pandas as pd
 from database.populator_helpers import PerVersionPopulator
-from src.database.repo_version_walker import project_processing_path
+from database.repo_version_walker import project_processing_path
 from utils import shell_interface
 
 designite_files_to_save = ['ArchitectureSmells.csv', 'DesignSmells.csv', 'ImplementationSmells.csv']
