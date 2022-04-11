@@ -7,21 +7,21 @@ database_action: GENERATE # GENERATE # LOAD
 
 # Projects below must share the "project_name" of a declared project from projects.yml
 projects_to_process:
-  # - ambari
-  # - beam
+  - ambari
+  - beam
   - zookeeper
-  # - accumulo
-  # - hive
+  - accumulo
+  - hive
 
 # Comment out tables you wish to exclude by prepending a #
 targeted_tables:
-  # - PROJECTS
-  # - PROJECT_VERSIONS
-  # - JIRA_ISSUES
-  # - GIT_COMMITS
-  # - GIT_COMMIT_VERSION
-  # - GIT_COMMIT_CHANGES
-  # # - GIT_COMMIT_JIRA # WARNING: GIT_COMMITS and JIRA_ISSUES must be LOADed into database prior to GENERATING this table
+  - PROJECTS
+  - PROJECT_VERSIONS
+  - JIRA_ISSUES
+  - GIT_COMMITS
+  - GIT_COMMIT_VERSION
+  - GIT_COMMIT_CHANGES
+  # - GIT_COMMIT_JIRA # WARNING: GIT_COMMITS and JIRA_ISSUES must be LOADed into database prior to GENERATING this table
   - STATIC_METRICS
-  # - REFACTORING_MINER
-  # - DESIGNITE_SMELLS # WARNING: DESIGNITE_SMELLS must be LAST
+  - REFACTORING_MINER
+  - DESIGNITE_SMELLS # WARNING: DESIGNITE_SMELLS must be LAST
