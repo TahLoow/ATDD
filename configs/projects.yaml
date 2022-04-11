@@ -1,0 +1,32 @@
+# Projects are described here
+
+-
+  project_name: ambari
+  repo_link: https://github.com/apache/ambari
+  jira_link: https://issues.apache.org/jira
+  repo_owner: apache
+  repo_main_branch: trunk
+-
+  project_name: beam
+  repo_link: https://github.com/apache/beam
+  jira_link: https://issues.apache.org/jira
+  repo_owner: apache
+  repo_main_branch: master
+-
+  project_name: zookeeper
+  repo_link: https://github.com/apache/zookeeper
+  jira_link: https://issues.apache.org/jira
+  repo_owner: apache
+  repo_main_branch: master
+-
+  project_name: accumulo
+  repo_link: https://github.com/apache/accumulo
+  jira_link: https://issues.apache.org/jira
+  repo_owner: apache
+  repo_main_branch: main
+-
+  project_name: hive
+  repo_link: https://github.com/apache/hive
+  jira_link: https://issues.apache.org/jira
+  repo_owner: apache
+  repo_main_branch: master

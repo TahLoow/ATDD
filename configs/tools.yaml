@@ -1,0 +1,7 @@
+# Tool locations are described here
+refactoring_miner:
+  path: C:\Users\Plaul\Documents\gra\IV-V-WVU-RESEARCH\tools\RefactoringMiner-2.1.0\bin\RefactoringMiner.bat
+
+designite:
+  path: C:\Users\Plaul\Documents\gra\IV-V-WVU-RESEARCH\tools\designite\DesigniteJava.jar
+  max_allocation: '4g'

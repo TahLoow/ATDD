@@ -1,0 +1,12 @@
+*.eggs
+*.idea
+*__pycache__
+*atdd.egg-info
+
+etc/*
+!etc/readme.md
+
+repos/*
+!repos/readme.md
+
+env
